@@ -1,1 +1,8 @@
-console.log ("Hello World!");
+function computerPlay () {
+    const arrOfChoices = ['Rock', 'Paper', 'Scissors']
+    const randomNum = Math.floor(Math.random() * 3)
+    const compChoice = arrOfChoices[randomNum]
+    return compChoice
+}
+
+
